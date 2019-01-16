@@ -1,0 +1,14 @@
+.cell{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(180, 180, 255);
+    border: 2px solid black;
+    padding: 10;
+}
+.container{
+    grid-template-columns: 33.333%;
+    grid-template-rows: 33.333%;
+}
+#row{
+    display:inline-block;
+}
